@@ -12,7 +12,7 @@ const PublicMenu = () => {
     phone: '3214017967',
     whatsapp: '3214017967',
     address: 'Crra 1ra # 30 05 Barrio Candido',
-    hours: `lunes\n2:00 p. m.-8:00 p. m.\nmartes\n2:00 p. m.-8:00 p. m.\nmiércoles\n2:00 p. m.-8:00 p. m.\njueves\n2:00 p. m.-8:00 p. m.\nviernes\n2:00 p. m.-8:00 p. m.\nsábado\n2:00 p. m.-8:00 p. m.\ndomingo\n2:00 p. m.-8:00 p. m.`,
+    hours: `Todos los días desde las 3 PM a 12 PM`,
     delivery: 'Domicilios disponibles en toda la ciudad'
   });
   const [showAdminButton, setShowAdminButton] = useState(false);
@@ -125,11 +125,11 @@ const PublicMenu = () => {
           <span><strong className="text-white">WhatsApp:</strong> {contact.whatsapp}</span>
           <span><strong className="text-white">Dirección:</strong> {contact.address}</span>
           
-          {/* <span><strong className="text-white">Horarios:</strong><br/>
+          <span><strong className="text-white">Horarios:</strong><br/>
             {contact.hours.split('\n').map((line, idx) => (
               <span key={idx}>{line}<br/></span>
             ))}
-          </span> */}
+          </span>
           <span><strong className="text-white">Domicilios:</strong> {contact.delivery}</span>
         </div>
       </div>

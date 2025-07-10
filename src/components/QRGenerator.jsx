@@ -5,9 +5,8 @@ const QRGenerator = () => {
   const [qrUrl, setQrUrl] = useState('');
 
   useEffect(() => {
-    // Obtener la URL actual y construir la URL del menú público
-    const currentUrl = window.location.origin;
-    setQrUrl(`${currentUrl}/menu`);
+    // Usar la URL de Vercel directamente
+    setQrUrl('https://menu-qr-alpha.vercel.app/');
   }, []);
 
   const downloadQR = () => {
