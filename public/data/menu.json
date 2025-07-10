@@ -1,0 +1,92 @@
+[
+  {
+    "name": "Pastel mixto",
+    "description": "carne, pollo, huevo y arroz",
+    "price": "3500",
+    "category": "Pasteles de arroz"
+  },
+  {
+    "name": "Pastel de pollo",
+    "description": "pollo con arroz",
+    "price": "3500",
+    "category": "Pasteles de arroz"
+  },
+  {
+    "name": "Pastel de huevo",
+    "description": "huevo con arroz",
+    "price": "3500",
+    "category": "Pasteles de arroz"
+  },
+  {
+    "name": "Pastel paisa",
+    "description": "frijol, arroz, chorizo, carne desmechada, huevo en tortilla y plátano maduro",
+    "price": "3500",
+    "category": "Pasteles de arroz"
+  },
+  {
+    "name": "Papa mixta",
+    "description": "carne, pollo, huevo y papa",
+    "price": "3500",
+    "category": "Pasteles de papa"
+  },
+  {
+    "name": "Papa ranchera",
+    "description": "maíz tierno, salchicha ranchera, pollo desmechado y huevo en trocitos",
+    "price": "3500",
+    "category": "Pasteles de papa"
+  },
+  {
+    "name": "Papa Romi",
+    "description": "carne desmechada, huevo entero y papa",
+    "price": "3500",
+    "category": "Pasteles de papa"
+  },
+  {
+    "name": "Papa salchichón",
+    "description": "Salchichón cerveroni y papa",
+    "price": "3500",
+    "category": "Pasteles de papa"
+  },
+  {
+    "name": "Papa burguer",
+    "description": "Hamburguesa casera, hogao campesino y papa",
+    "price": "4000",
+    "category": "Pasteles de papa"
+  },
+  {
+    "name": "Pastel campesino",
+    "description": "pollo en trocitos, cerdo en trocitos, huevo en trocitos y yuca",
+    "price": "3500",
+    "category": "Pasteles de yuca"
+  },
+  {
+    "name": "Empanada",
+    "description": "carne molida, arroz",
+    "price": "2000",
+    "category": "Empanadas"
+  },
+  {
+    "name": "Hamburguesa de plátano",
+    "description": "carne artesanal, cebolla caramelizada, queso doble crema y plátano",
+    "price": "5000",
+    "category": "Hamburguesas" 
+  },
+  {
+    "name": "Gaseosa Postobón 1.5L",
+    "description": "Bebidas (productos Postobón)",
+    "price": "8000",
+    "category": "Bebidas"
+  },
+  {
+    "name": "Jugo Hit 1L",
+    "description": "Bebidas (productos Postobón)",
+    "price": "7000",
+    "category": "Bebidas"
+  },
+  {
+    "name": "Personal 500ml",
+    "description": "Bebidas (productos Postobón)",
+    "price": "4000",
+    "category": "Bebidas"
+  }
+] 
