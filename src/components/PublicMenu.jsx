@@ -34,15 +34,6 @@ const PublicMenu = () => {
     return () => clearInterval(interval);
   }, []);
 
-  const handleAdminAccess = (e) => {
-    e.preventDefault();
-    if (adminPassword === ADMIN_PASSWORD) {
-      setShowAdminButton(true);
-      setAdminPassword('');
-    } else {
-      alert('Contraseña incorrecta');
-    }
-  };
 
   // Obtener categorías únicas dinámicamente en el orden de aparición
   const categories = [];
