@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import { FaFacebook, FaInstagram, FaWhatsapp } from 'react-icons/fa6';
 import QRGenerator from './QRGenerator';
+import Footer from './Footer';
 
 const CONTACT_STORAGE_KEY = 'contact_info';
 const ADMIN_PASSWORD = 'admin123';
@@ -127,6 +128,7 @@ const PublicMenu = () => {
       <div className="w-full max-w-4xl mt-8 text-center p-6 bg-black rounded-2xl border-4 border-yellow-400 flex flex-col items-center justify-center">
         <QRGenerator />
       </div>
+      <Footer />
     </div>
   );
 };
