@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import QRCode from 'react-qr-code';
 
 const QRGenerator = () => {
@@ -55,7 +55,7 @@ const QRGenerator = () => {
         </div>
         <button 
           onClick={downloadQR}
-          className="bg-yellow-600 text-white border-none rounded-lg px-6 py-3 font-bold hover:bg-green-700 transition-colors"
+          className="bg-yellow-700 text-white border-none rounded-lg px-6 py-3 font-bold hover:bg-green-700 transition-colors"
         >
           📥 Descargar QR
         </button>
